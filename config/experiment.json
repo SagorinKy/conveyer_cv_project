@@ -1,0 +1,104 @@
+{
+    "fps": 30,
+    "duration_s": 5.0,
+    "start_frame": 1,
+    "seed": 42,
+    "output_dir": "results/experiment",
+    "motion": {
+        "scene_velocity_m_s": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "scene_angular_velocity_deg_s": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "conveyor_velocity_m_s": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "conveyor_angular_velocity_deg_s": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "camera_velocity_m_s": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "camera_angular_velocity_deg_s": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "vibration": {
+        "scene": {
+            "enabled": false,
+            "mode": "combined",
+            "frequency_hz": 5.0,
+            "amplitude": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "sigma": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "phase_rad": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "seed": 42
+        },
+        "conveyor": {
+            "enabled": false,
+            "mode": "combined",
+            "frequency_hz": 20.0,
+            "amplitude": [
+                0.001,
+                0.001,
+                0.001
+            ],
+            "sigma": [
+                0.0005,
+                0.0005,
+                0.0005
+            ],
+            "phase_rad": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "seed": 42
+        },
+        "camera": {
+            "enabled": true,
+            "mode": "combined",
+            "frequency_hz": 12.0,
+            "amplitude": [
+                0.001,
+                0.001,
+                0.001
+            ],
+            "sigma": [
+                0.0005,
+                0.0005,
+                0.0005
+            ],
+            "phase_rad": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "seed": 42
+        }
+    }
+}

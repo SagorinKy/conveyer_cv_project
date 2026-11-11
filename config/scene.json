@@ -1,0 +1,81 @@
+{
+    "conveyor": {
+        "position": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0],
+
+        "length": 2.0,
+        "width": 0.8,
+        "height": 0.9,
+
+        "belt_thickness": 0.06,
+        "belt_color": [0.035, 0.045, 0.055],
+
+        "rail_width": 0.06,
+        "rail_height": 0.32,
+        "rail_top_above_belt": 0.17,
+
+        "leg_width": 0.07,
+        "frame_color": [0.22, 0.25, 0.29],
+
+        "roller_radius": 0.075,
+        "roller_segments": 48
+    },
+
+    "camera": {
+        "model": "Basler a2A1920-51gcBAS",
+        "sensor": {
+            "model": "Sony IMX392",
+            "type": "CMOS",
+            "shutter": "global",
+            "width_mm": 6.624,
+            "height_mm": 4.14
+        },
+        "lens": {
+            "model": "12mm C-mount lens (exact model not selected)",
+            "mount": "C-mount",
+            "focal_length_mm": 12.0,
+            "f_stop": 2.0
+        },
+        "controller_position": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "controller_rotation": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "position": [
+            0.0,
+            -3.85,
+            3.1
+        ],
+        "target": [
+            0.0,
+            0.0,
+            0.9
+        ],
+        "resolution": [
+            1280,
+            800
+        ],
+        "clip_start": 0.01,
+        "clip_end": 100.0,
+        "depth_of_field": false,
+        "motion_blur": false
+    },
+
+    "render": {
+        "engine": "BLENDER_EEVEE",
+        "resolution_percentage": 100,
+        "image_format": "PNG",
+        "samples": 64,
+        "default_fps": 30
+    },
+
+    "environment": {
+        "floor_height": -0.06,
+        "floor_size": 10.0
+    }
+}
